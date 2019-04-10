@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/sahanwellala/AF_Hackathon.git/precache-manifest.49bd8104bac7ad73233c316920a2e25c.js"
+  "/AF_Hackathon/precache-manifest.183545f9d57bfb14c8ee2fa90906ef80.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/sahanwellala/AF_Hackathon.git/index.html", {
+workbox.routing.registerNavigationRoute("/AF_Hackathon/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
